@@ -35,13 +35,20 @@ file_storage_app/
 
 ##  Setup Instructions
 
-### 1️ Clone Repository
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/your-username/cloud-file-storage.git
 cd cloud-file-storage
-2️⃣ Install Dependencies
+```
+### 2️⃣ Install Dependencies
+```bash
 pip3 install flask boto3
-3️⃣ Configure AWS Credentials
+```
+
+### 3️⃣ Configure AWS Credentials
+```bash
 Option 1: IAM Role (Recommended for EC2)
 
 Attach a role with:
@@ -55,14 +62,22 @@ Enter:
 AWS Access Key
 AWS Secret Key
 Region: ap-south-1
-4️⃣ Update Bucket Name
+```
 
+### 4️⃣ Update Bucket Name
+```bash
 Open app.py and update:
 
 S3_BUCKET_NAME = 'your-bucket-name'
-5️⃣ Run the Application
+```
+
+### 5️⃣ Run the Application
+```bash
 python3 app.py
-6️⃣ Access in Browser
+```
+
+### 6️⃣ Access in Browser
+```bash
 http://<your-ec2-public-ip>:5000
 🔐 Required Permissions
 
@@ -73,5 +88,4 @@ Make sure your IAM role/user has:
   "Action": ["s3:PutObject"],
   "Resource": "arn:aws:s3:::your-bucket-name/*"
 }
-
-
+```
