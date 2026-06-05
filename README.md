@@ -22,15 +22,12 @@ It allows users to upload files through a simple web interface, and the files ar
 - HTML, CSS
 
 ---
-
 ##  Project Structure
 
 file_storage_app/
 │
 ├── app.py # Main Flask application
 └── README.md # Project documentation
-
-
 ---
 
 ##  Setup Instructions
