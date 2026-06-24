@@ -5,7 +5,6 @@ This project is a **web-based cloud file upload system** built using **Flask (Py
 It allows users to upload files through a simple web interface, and the files are stored securely in an S3 bucket.
 
 ---
-
 ##  Features
 -  Upload files to AWS S3
 -  Simple web interface using Flask
@@ -14,7 +13,6 @@ It allows users to upload files through a simple web interface, and the files ar
 - Cloud-based storage system
 
 ---
-
 ##  Technologies Used
 - Python 3
 - Flask
@@ -23,13 +21,11 @@ It allows users to upload files through a simple web interface, and the files ar
 
 ---
 ##  Project Structure
-
 file_storage_app/
 │
 ├── app.py # Main Flask application
 └── README.md # Project documentation
 ---
-
 ##  Setup Instructions
 
 ## ⚙️ Setup Instructions
