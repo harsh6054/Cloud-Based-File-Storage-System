@@ -27,7 +27,6 @@ file_storage_app/
 └── README.md # Project documentation
 ---
 ##  Setup Instructions
-
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone Repository
@@ -39,7 +38,6 @@ cd cloud-file-storage
 ```bash
 pip3 install flask boto3
 ```
-
 ### 3️⃣ Configure AWS Credentials
 ```bash
 Option 1: IAM Role (Recommended for EC2)
